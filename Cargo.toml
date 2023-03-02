@@ -1,8 +1,10 @@
 [package]
-name = "RLox"
+name = "rox"
 version = "0.1.0"
+authors = ["Zhao Yongzhen <zhaoyzzz@outlook.com>"]
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
+pest = "2.0"
+pest_derive = "2.0"
+structopt = { version = "0.3" }
